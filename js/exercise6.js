@@ -1,3 +1,6 @@
+console.log("Exercise 6");
+console.log("Array");
+
 let participants = ["Naka", "Sinji", "Okarun", "Doki"];
 
 participants.push("Ayasa");
