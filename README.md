@@ -6,3 +6,4 @@ JavaScript-Basic
   5. Exercise 5: Function.
   6. Exercise 6: Array.
   7. Exercise 7: Object.
+  8. Exercise 8: Array Of Object.
