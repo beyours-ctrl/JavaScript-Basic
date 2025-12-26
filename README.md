@@ -8,3 +8,4 @@ JavaScript-Basic
   7. Exercise 7: Object.
   8. Exercise 8: Array Of Object.
   9. Exercise 9: Document Of Model(DOM) - Basic 
+  10. Exercise 10: Input Validation.
