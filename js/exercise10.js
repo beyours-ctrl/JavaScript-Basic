@@ -24,7 +24,7 @@ document.getElementById("btnAdd").onclick = function(){
     applicants.push({name, age, student});
     list.innerHTML = "";
 
-    for (let i=0; i < applicants.length; i++){
+    for (let i = 0; i < applicants.length; i++){
         let accepted = applicants[i].age >=19 && applicants[i].student;
 
         if(accepted){

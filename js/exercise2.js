@@ -7,7 +7,7 @@ let city = "Tokyo";
 
 // Number
 let age = 20;
-let hight = 185.
+let hight = 185.6;
 
 // Boolean
 let isStudent = true;

@@ -27,7 +27,7 @@ for(let i=0; i < applicants.length; i++){
     }else{
         console.log("Status: Rejected")
         totalRejected++;
-    }
+    };
 };
 
 console.log(`Total Applicants: ${applicants.length}`);

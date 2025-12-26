@@ -15,7 +15,7 @@ document.getElementById("form").addEventListener("submit", function(event){
     if (name === ""){
         error.textContent = "Name cannot be empty";
         return;
-    }
+    };
 
     if(age <= 0) {
         error.textContent = "Age must be more than 0";
@@ -26,7 +26,7 @@ document.getElementById("form").addEventListener("submit", function(event){
     applicants.push({name, age, student});
     list.innerHTML = "";
 
-    for (let i=0; i < applicants.length; i++){
+    for (let i = 0; i < applicants.length; i++){
         let accepted = applicants[i].age >=18 && applicants[i].student;
 
         list.innerHTML += 

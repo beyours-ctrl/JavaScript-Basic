@@ -19,6 +19,6 @@ document.getElementById("btnAdd").onclick = function(){
             list.innerHTML += `<li>${applicants[i].name} \n | Status : Accepted </li>`;
         } else {
             list.innerHTML += `<li>${applicants[i].name} \n | Status : Rejected </li>`
-        }       
+        };     
     };
 };
