@@ -33,5 +33,4 @@ document.getElementById("btnAdd").onclick = function(){
             list.innerHTML += `<li>${applicants[i].name} - Rejected</li>`;
         };
     };
-
 };

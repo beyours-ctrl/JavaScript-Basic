@@ -7,7 +7,7 @@ document.getElementById("form").addEventListener("submit", function(event){
     event.preventDefault();
 
     let name = document.getElementById("name").value;
-    let age = Number(document.getElementById("name").value);
+    let age = Number(document.getElementById("age").value);
     let student = document.getElementById("student").checked;
     let error = document.getElementById("error");
     let list = document.getElementById("list");
@@ -25,4 +25,13 @@ document.getElementById("form").addEventListener("submit", function(event){
 
     applicants.push({name, age, student});
     list.innerHTML = "";
+
+    for (let i=0; i < applicants.length; i++){
+        let accepted = applicants[i].age >=18 && applicants[i].student;
+
+        list.innerHTML += 
+        `<li>
+            ${applicants[i].name} - ${accepted ? "Accepted" : "Rejected"}
+        </li>`;
+    };
 });
