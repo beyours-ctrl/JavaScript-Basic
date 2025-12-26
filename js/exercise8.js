@@ -28,7 +28,8 @@ for(let i=0; i < applicants.length; i++){
         console.log("Status: Rejected")
         totalRejected++;
     }
-}
+};
+
 console.log(`Total Applicants: ${applicants.length}`);
 console.log(`Total Accepted: ${totalAccepted}`);
 console.log(`Total Accepted: ${totalRejected}`);

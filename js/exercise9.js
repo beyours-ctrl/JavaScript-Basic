@@ -20,5 +20,5 @@ document.getElementById("btnAdd").onclick = function(){
         } else {
             list.innerHTML += `<li>${applicants[i].name} \n | Status : Rejected </li>`
         }       
-    }
+    };
 };

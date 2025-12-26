@@ -18,7 +18,7 @@ console.log(user.email);
 
 function canUserRegister(user){
     return user.age >=20 || user.isStudent;
-}
+};
 
 let result = canUserRegister(user);
 console.log(`Can User Register: ${result}`);

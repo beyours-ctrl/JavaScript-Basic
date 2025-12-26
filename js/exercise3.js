@@ -12,4 +12,4 @@ console.log("Student : ", isStudent);
         console.log("Registration Accepted");
     } else {
         console.log("Registration Rejected");
-}
+};
