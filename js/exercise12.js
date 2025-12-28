@@ -1,5 +1,5 @@
 console.log("Exercise 12");
-console.log("Render List");
+console.log("Render List & Clear All");
 
 let applicants = [];
 let form = document.getElementById("form");
@@ -25,7 +25,6 @@ form.addEventListener("submit", function(event){
     error.textContent = "";
 
     applicants.push({name, age, student});
-    list.innerHTML = "";
 
     renderList();
 });

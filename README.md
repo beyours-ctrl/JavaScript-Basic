@@ -10,3 +10,5 @@ JavaScript-Basic
   9. Exercise 9: Document Of Model(DOM) - Basic 
   10. Exercise 10: Input Validation.
   Exercise - Basic
+  11. Exercise 11: submit EVENT & preventDefault()
+  12. Exercise 12: Render List & Clear All.
